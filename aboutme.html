@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio-Brighton</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="skeleton.css">
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+        <div class="head">
+            <div class="icon">
+                <a href="index.html"><img src="home.png" alt="home icon" height="37px" ></a>
+            </div>
+
+            <div class="radio-inputs">
+                <!--Table of content linking using id-->
+                <label class="radio">
+                  <input type="radio" name="radio">
+                  <span class="name"><a href="#skill">SKILL</a></span>
+                </label>
+                <label class="radio">
+                  <input type="radio" name="radio">
+                  <span class="name"><a href="#project">PROJECT</a></span>
+                </label>
+                    
+                <label class="radio">
+                  <input type="radio" name="radio">
+                  <span class="name"><a href="#contact">CONTACT</a></span>
+                </label>
+                
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!--ABOUT ME-->
+        <section>
+            <h1>Who Am I?</h1>
+            <div class="aboutme">
+                <!--More info about me-->
+                <p>
+                    I am a Kenyan student currently undertaking a Software Engineering course at ALX and I am situated in Kisumu County.
+                </p>
+                <p>
+                    My journey as a web developer began with a fascination for technology and a desire to bridge the gap between creativity and functionality.What drives me in this field is the ability to transform ideas into tangible, interactive experiences that people can enjoy and benefit from.
+                </p>
+                <p>
+                    Outside of web development, I am a drummerer, a car lover and a tech enthusiast. These experiences have broadened my horizons and shaped me into a well-rounded individual.
+                </p>
+                <p>
+                    In conclusion, my journey as a web developer has been marked by continuous learning, creative problem-solving, and a commitment to building web solutions that make a difference. I look forward to the ongoing challenges and opportunities in this dynamic field, and I am excited to contribute to the ever-evolving digital landscape.
+                </p>
+            </div>
+        </section>
+        <!--SKILLS SECTION-->
+        <section>
+            <h1 id="skill">Skill</h1>
+            <div class="skill" >
+                <h4>Front-end Development</h4>
+                <p>
+                    My expertise in front-end development enables me to create visually appealing and user-friendly websites. Proficient in HTML, CSS, and JavaScript, I strive to build responsive and accessible web interfaces. My passion for design and my understanding of user experience principles help me create websites that not only look great but also function seamlessly.
+                </p>
+                <h4>Database Management</h4>
+                <p>
+                    I have a solid grasp of database management systems such as MySQL. This enables me to design and maintain robust, scalable, and efficient databases that underpin data-driven web applications.
+                </p>
+                <h4>Responsive Web Design</h4>
+                <p>
+                    I excel in creating responsive web designs that adapt to various screen sizes and devices. Utilizing frameworks like CSS Grid, I ensure that websites look and perform optimally on any platform.
+                </p>
+                <h4>Version Control</h4>
+                <p>
+                    I am proficient in Git and platforms like GitHub, I can effectively collaborate with other developers, ensuring that project versions are tracked, and changes are managed seamlessly.
+                </p>
+                <h4>Continuous Learning</h4> 
+                <p>
+                    The field of web development is constantly evolving. I'm committed to ongoing learning to keep up with the latest trends, best practices, and emerging technologies.
+                </p>
+            </div>
+        </section>
+        
+
+        <!--PROJECT SECTION-->
+        <section>
+            <h1 id="project">Project</h1>
+            <div class="project" >
+                <h4>Portfolio Website</h4>
+                <p>
+                    My personal portfolio website serves as both a showcase of my skills and a platform for me to explore new web technologies. The website features responsive design and a contact form, allowing visitors to get to know me and my work.
+                </p>
+                <p>To view my projects you can visit my github by clicking on the github icon below</p>
+
+                <div id="git">
+                    <!--Github-->
+                    <a href="https://github.com/brighton-omondi" target="_blank"><img src="github.png" height="36"></a>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT SECTION-->
+        <section>
+            <div>
+                <h1 id="contact">Contact</h1>
+                <!--CONTACT FORM-->
+                    <div class="form">
+                        <!--Visitors info being sent to me by them-->
+                        <form class="container" method="POST" action="/submit">
+                            <h4 class="signup">Booking</h4>
+                    
+                            <label>Name</label><br>
+                            <input type="text" name="name" required="required" class="inputBox"><br>
+                    
+                            <label>Email</label><br>
+                            <input type="email" name="email" required="required" class="inputBox"><br>
+                    
+                            <label>Phone Number</label><br>
+                            <input type="text" name="phone_number" required="required" class="inputBox"><br>
+                    
+                            <br>
+                            <button class="enter" type="submit">Enter</button>
+                        </form>
+                    </div>
+                    <!--SOCIAL MEDIA PRESENCE-->
+                    <div class="social">
+
+                    </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
